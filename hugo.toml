@@ -1,0 +1,25 @@
+baseURL = "https://alirezasohofi.github.io/blog/"
+canonifyURLs = true
+relativeURLs = false
+languageCode = "en-us"
+title = "Alireza Sohofi"
+
+
+[taxonomies]
+  tag = "tags"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  term = ["HTML", "RSS"]
+
+[params]
+  linkedinUrl = "https://linkedin.com/in/alireza-sohofi"
+
+[build]
+  writeStats = true 
+
+[markup.goldmark.renderer]
+  unsafe = true
